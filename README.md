@@ -29,7 +29,7 @@ Program pisze wartościowanie jako uporządkowany rosnąco ciąg numerów tych z
 `[ ( 2 ) ( -2 ) ]`
 wynikiem programu jest:
 
-`<0>`
+`0`
 * Dla danych:
 
 `[ ( 3 4 ) ( 1 ) ( 7 -1 -3 ) ( -3 5 -2 ) ( -4 ) ]`
