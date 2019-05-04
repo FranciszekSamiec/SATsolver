@@ -6,15 +6,15 @@ Ten SAT solver jest zgodny z poniższą specyfikacją.
 
 - Na wejściu programu jest formuła w CNF.
 
-W formule mogą wystąpić:
+  W formule mogą wystąpić:
 
-* dodatnia liczba całkowita x, reprezentująca zmienną numer x,
+  * dodatnia liczba całkowita x, reprezentująca zmienną numer x,
 
-* ujemna liczba całkowita -x, reprezentująca negację zmiennej x,
+  * ujemna liczba całkowita -x, reprezentująca negację zmiennej x,
 
-* ujęty w nawiasy kwadratowe ciąg formuł, reprezentujący wieloargumentową koniunkcję,
+  * ujęty w nawiasy kwadratowe ciąg formuł, reprezentujący wieloargumentową koniunkcję,
 
-* ujęty w nawiasy okrągłe ciąg formuł, reprezentujący wieloargumentową alternatywę.
+  * ujęty w nawiasy okrągłe ciąg formuł, reprezentujący wieloargumentową alternatywę.
 
 - Jeśli formuła nie jest spełnialna, to wynikiem programu jest wiersz z liczbą 0.
 
