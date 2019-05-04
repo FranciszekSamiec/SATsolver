@@ -4,21 +4,21 @@ SAT solvery najczęściej działają na formułach w koniunkcyjnej postaci norma
 
 Ten SAT solver jest zgodny z poniższą specyfikacją.
 
-* Na wejściu programu jest formuła w CNF.
+- Na wejściu programu jest formuła w CNF.
 
 W formule mogą wystąpić:
 
-** dodatnia liczba całkowita x, reprezentująca zmienną numer x,
+* dodatnia liczba całkowita x, reprezentująca zmienną numer x,
 
-** ujemna liczba całkowita -x, reprezentująca negację zmiennej x,
+* ujemna liczba całkowita -x, reprezentująca negację zmiennej x,
 
-** ujęty w nawiasy kwadratowe ciąg formuł, reprezentujący wieloargumentową koniunkcję,
+* ujęty w nawiasy kwadratowe ciąg formuł, reprezentujący wieloargumentową koniunkcję,
 
-** ujęty w nawiasy okrągłe ciąg formuł, reprezentujący wieloargumentową alternatywę.
+* ujęty w nawiasy okrągłe ciąg formuł, reprezentujący wieloargumentową alternatywę.
 
-* Jeśli formuła nie jest spełnialna, to wynikiem programu jest wiersz z liczbą 0.
+- Jeśli formuła nie jest spełnialna, to wynikiem programu jest wiersz z liczbą 0.
 
-* Jeśli formuła jest spełnialna, to wynikiem programu jest wiersz z zapisem wartościowania zmiennych spełniającego formułę.
+- Jeśli formuła jest spełnialna, to wynikiem programu jest wiersz z zapisem wartościowania zmiennych spełniającego formułę.
 
 Spośród wszystkich wartościowań spełniających formułę, wybierane jest to, którego zapis zero-jedynkowy występuje w porządku leksykograficznym najwcześniej.
 
