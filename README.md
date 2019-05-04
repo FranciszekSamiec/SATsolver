@@ -8,15 +8,15 @@ Ten SAT solver jest zgodny z poniższą specyfikacją.
 
   W formule mogą wystąpić:
 
-  * dodatnia liczba całkowita `<x>, reprezentująca zmienną numer x,
+  * dodatnia liczba całkowita `<x>`, reprezentująca zmienną numer `<x>`,
 
-  * ujemna liczba całkowita -x, reprezentująca negację zmiennej x,
+  * ujemna liczba całkowita <`-x>`, reprezentująca negację zmiennej `<x>`,
 
   * ujęty w nawiasy kwadratowe ciąg formuł, reprezentujący wieloargumentową koniunkcję,
 
   * ujęty w nawiasy okrągłe ciąg formuł, reprezentujący wieloargumentową alternatywę.
 
-- Jeśli formuła nie jest spełnialna, to wynikiem programu jest wiersz z liczbą 0.
+- Jeśli formuła nie jest spełnialna, to wynikiem programu jest wiersz z liczbą `<0>`.
 
 - Jeśli formuła jest spełnialna, to wynikiem programu jest wiersz z zapisem wartościowania zmiennych spełniającego formułę.
 
